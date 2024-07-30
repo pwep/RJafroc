@@ -38,16 +38,16 @@ The allowed FOMs depend on the \code{dataType} field of the
     \strong{For \code{dataset$descriptions$type = "ROC"} only \code{FOM = "Wilcoxon"} is allowed}.
     \strong{For \code{dataset$descriptions$type = "FROC"} the following FOMs are allowed}:
     \itemize{ 
-    \item \code{FOM = "AFROC1"} (use only if no non-diseased cases are available)
-    \item \code{FOM = "AFROC"} 
-    \item \code{FOM = "wAFROC1"} (use only if no non-diseased cases  are available)
-    \item \code{FOM = "wAFROC"} (the default) 
-    \item \code{FOM = "HrAuc"} 
-    \item \code{FOM = "HrSe"} (example of an end-point based FOM)
-    \item \code{FOM = "HrSp"} (do:)
-    \item \code{FOM = "MaxLLF"} (do:)
-    \item \code{FOM = "MaxNLF"} (do:)
-    \item \code{FOM = "MaxNLFAllCases"} (do:) 
+    \item{\code{FOM = "AFROC1"}} (use only if no non-diseased cases are available)
+    \item{\code{FOM = "AFROC"}} 
+    \item{\code{FOM = "wAFROC1"}} (use only if no non-diseased cases  are available)
+    \item{\code{FOM = "wAFROC"}} (the default) 
+    \item{\code{FOM = "HrAuc"}} 
+    \item{\code{FOM = "HrSe"}} (example of an end-point based FOM)
+    \item{\code{FOM = "HrSp"}} (do:)
+    \item{\code{FOM = "MaxLLF"}} (do:)
+    \item{\code{FOM = "MaxNLF"}} (do:)
+    \item{\code{FOM = "MaxNLFAllCases"}} (do:) 
    } 
     \code{"MaxLLF"}, \code{"MaxNLF"} and \code{"MaxNLFAllCases"}
     correspond to ordinate, and abscissa, respectively, of the highest point 
