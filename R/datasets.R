@@ -10,7 +10,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:5, 1:185, 1:3], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:5, 1:89, 1:2], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -56,7 +56,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:5, 1:114, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:5, 1:45, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -101,7 +101,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:4, 1:100, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:4, 1:67, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -148,7 +148,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:5, 1:4, 1:200, 1:7], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:5, 1:4, 1:100, 1:3], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -192,7 +192,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:9, 1:92, 1:7], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:9, 1:47, 1:3], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -236,7 +236,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:4, 1:89, 1:17], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:4, 1:42, 1:15], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -278,7 +278,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:5, 1:7, 1:162, 1:4], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:5, 1:7, 1:81, 1:3], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -322,7 +322,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:5, 1:5, 1:112, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:5, 1:5, 1:64, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -369,7 +369,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1, 1:10, 1:200, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1, 1:10, 1:80, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -413,7 +413,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:3, 1:8, 1:90, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:3, 1:8, 1:40, 1] , ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -465,7 +465,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:4, 1:5, 1:158, 1:4], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:4, 1:5, 1:115, 1:20], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -506,7 +506,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:4, 1:5, 1:152, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:4, 1:5, 1:88, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -546,7 +546,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:4, 1:5, 1:158, 1:4], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:4, 1:5, 1:106, 1:15], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -590,7 +590,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:4, 1:200, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:4, 1:100, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -629,7 +629,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:4, 1:200, 1:7], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:4, 1:100, 1:3], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -669,7 +669,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1, 1:2, 1:10000, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1, 1:2, 1:5000, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -709,7 +709,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1, 1:2, 1:10000, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1, 1:2, 1:5000, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -749,7 +749,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1, 1:2, 1:10000, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1, 1:2, 1:5000, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -793,20 +793,20 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
-#' \item{\code{rating$NL}}{, num [1, 1:10, 1:200, 1], ratings of localizations on normal cases}
-#' \item{\code{rating$LL}}{, num [1, 1:10, 1:80, 1], ratings of correct localizations on abnormal cases}
-#' \item{\code{rating$LL_IL}}{num [1, 1:10, 1:80, 1], ratings of incorrect localizations on abnormal cases}
-#' \item{\code{lesions$perCase}}{, int [1:80], number of lesions per diseased case}
-#' \item{\code{lesions$IDs}}{, num [1:80, 1] , numeric labels of lesions on diseased cases}
-#' \item{\code{lesions$weights}}{, num [1:80, 1], weights (or clinical importances) of lesions}
-#' \item{\code{descriptions$fileName}}{, chr, "datasetCadLroc", base name of dataset in `data` folder}
-#' \item{\code{descriptions$type}}{, chr "LROC", the data type}
-#' \item{\code{descriptions$name}}{, chr "NICO-CAD-LROC", the name of the dataset}
-#' \item{\code{descriptions$truthTableStr}}{, num [1:2, 1:4, 1:200, 1:2], truth table structure}
-#' \item{\code{descriptions$design}}{, chr "FCTRL", study design, factorial dataset}
-#' \item{\code{descriptions$modalityID}}{, chr "1", modality label(s)}
-#' \item{\code{descriptions$readerID}}{, chr [1:10] "1" "2" "3" "4" ..., reader labels}
+#' \describe{
+#' \item{\code{rating$NL}}{\code{num [1, 1:10, 1:200, 1]} ratings of localizations on normal cases}
+#' \item{\code{rating$LL}}{\code{num [1, 1:10, 1:80, 1]} ratings of correct localizations on abnormal cases}
+#' \item{\code{rating$LL_IL}}{\code{num [1, 1:10, 1:80, 1]} ratings of incorrect localizations on abnormal cases}
+#' \item{\code{lesions$perCase}}{\code{int [1:80]} number of lesions per diseased case}
+#' \item{\code{lesions$IDs}}{\code{num [1:80, 1]} numeric labels of lesions on diseased cases}
+#' \item{\code{lesions$weights}}{\code{num [1:80, 1]} weights (or clinical importances) of lesions}
+#' \item{\code{descriptions$fileName}}{\code{chr "datasetCadLroc"} base name of dataset in `data` folder}
+#' \item{\code{descriptions$type}}{\code{chr "LROC"} the data type}
+#' \item{\code{descriptions$name}}{\code{chr "NICO-CAD-LROC"} the name of the dataset}
+#' \item{\code{descriptions$truthTableStr}}{\code{num [1:2, 1:4, 1:200, 1:2]} truth table structure}
+#' \item{\code{descriptions$design}}{\code{chr "FCTRL"} study design, factorial dataset}
+#' \item{\code{descriptions$modalityID}}{\code{chr "1"} modality label(s)}
+#' \item{\code{descriptions$readerID}}{\code{chr [1:10] "1" "2" "3" "4" ...} reader labels}
 #' }
 #'
 #' @keywords datasets
@@ -845,7 +845,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1, 1:10, 1:200, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1, 1:10, 1:80, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -880,7 +880,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:4, 1:11, 1:68, 1:5], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:4, 1:11, 1:34, 1:3], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -923,7 +923,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1, 1, 1:15, 1], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1, 1, 1:10, 1], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
@@ -958,7 +958,7 @@
 #'    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
 #'    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
 #'    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-#' \itemize{
+#' \describe{
 #' \item{\code{rating$NL}}{, num [1:2, 1:5, 1:90, 1:4], ratings of non-lesion localizations, NLs}
 #' \item{\code{rating$LL}}{, num [1:2, 1:5, 1:40, 1:4], ratings of lesion localizations, LLs}
 #' \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}

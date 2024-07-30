@@ -10,7 +10,7 @@ A list with 3 elements: \code{$ratings}, \code{$lesions} and \code{$descriptions
    contain 3 elements, \code{$perCase}, \code{$IDs} and \code{$weights} as sub-lists; \code{$descriptions}
    contain 7 elements, \code{$fileName}, \code{$type}, \code{$name},
    \code{$truthTableStr}, \code{$design}, \code{$modalityID} and \code{$readerID} as sub-lists;
-\itemize{
+\describe{
 \item{\code{rating$NL}}{, num [1:5, 1:4, 1:200, 1:7], ratings of non-lesion localizations, NLs}
 \item{\code{rating$LL}}{, num [1:5, 1:4, 1:100, 1:3], ratings of lesion localizations, LLs}
 \item{\code{rating$LL_IL}}{NA, this placeholder is used only for LROC data}
