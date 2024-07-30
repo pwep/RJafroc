@@ -56,15 +56,15 @@
 #'   predicted wAFROC curves in up to two treatments, the area under the search
 #'   model predicted FROC curves in up to two treatments.
 #' \itemize{
-#' \item{\code{ROCPlot}}   {The predicted ROC plots}
-#' \item{\code{AFROCPlot}}     {The predicted AFROC plots}
-#' \item{\code{wAFROCPlot}}    {The predicted wAFROC plots}
-#' \item{\code{FROCPlot}}  {The predicted FROC plots}
-#' \item{\code{PDFPlot}}   {The predicted ROC pdf plots, highest rating generated}
-#' \item{\code{aucROC}}    {The predicted ROC AUCs, highest rating generated}
-#' \item{\code{aucAFROC}}  {The predicted AFROC AUCs}
-#' \item{\code{aucwAFROC}} {The predicted wAFROC AUCs}
-#' \item{\code{aucFROC}}   {The predicted FROC AUCs}
+#' \item{\code{ROCPlot} The predicted ROC plots}
+#' \item{\code{AFROCPlot} The predicted AFROC plots}
+#' \item{\code{wAFROCPlot} The predicted wAFROC plots}
+#' \item{\code{FROCPlot} The predicted FROC plots}
+#' \item{\code{PDFPlot} The predicted ROC pdf plots, highest rating generated}
+#' \item{\code{aucROC} The predicted ROC AUCs, highest rating generated}
+#' \item{\code{aucAFROC} The predicted AFROC AUCs}
+#' \item{\code{aucwAFROC} The predicted wAFROC AUCs}
+#' \item{\code{aucFROC} The predicted FROC AUCs}
 #' }
 #'
 #' @details RSM is the Radiological Search Model described in the book. This
