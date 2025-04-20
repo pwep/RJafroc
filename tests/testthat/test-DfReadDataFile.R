@@ -365,7 +365,7 @@ test_that(contextStr, {
   temp <- DfReadDataFile(fileName, newExcelFileFormat = TRUE, lrocForcedMark = TRUE)
   expect_equal(temp, ds)
   
-  # must set lrocForcedMark flag to logical T/F with this LROC dataset  
+  # must set lrocForcedMark flag to logical TRUE with this LROC dataset  
   expect_error(DfReadDataFile(fileName, newExcelFileFormat = TRUE))
   
 })

@@ -608,10 +608,7 @@ ReadJAFROCNewFormat <- function(fileName, lrocForcedMark, sequentialNames)
     if (lrocForcedMark) {
       for (i in 1:I) {
         for (j in 1:J) {
-          if (any(!xor((LL[i,j,,1] != -Inf), (LL_IL[i,j,,1] != -Inf)))) stop("Error in LROC file: check that every dis. case mark appears in either TP or FP sheet\n")
-          # for (k in 1:K2) {
-          #   if ((LL[i,j,k,1] != -Inf) == (LL_IL[i,j,k,1] != -Inf)) stop("Error in LROC file: check that every dis. case appears in either TP or FP sheet\n")
-          # }
+          if (any(!xor((LL[i,j,,1] != -Inf), (LL_IL[i,j,,1] != -Inf)))) stop("Error in LROC file: check that every dis. case appears in TP or FP sheet\n")
         }
       }
     }
